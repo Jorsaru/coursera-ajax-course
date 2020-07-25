@@ -15,18 +15,21 @@
         $scope.message = "Enjoy!";
         $scope.color = 'green';
         $scope.border = '1px solid green';
+        $scope.warning = '';
       }
 
       else {
         $scope.message = "Too much!";
         $scope.color = 'green';
         $scope.border = '1px solid green';
+        $scope.warning = '';
       }
 
       if (list == '') {
         $scope.message = "Please enter data first.";
         $scope.color = 'red';
         $scope.border = '1px solid red';
+        $scope.warning = '';
       }
 
       for (var i = 0; i < string.length; i++) {
